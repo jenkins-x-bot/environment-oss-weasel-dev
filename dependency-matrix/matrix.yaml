@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: jenkins-x-apps
-  repo: jx-app-gloo
-  url: https://github.com/jenkins-x-apps/jx-app-gloo.git
+  repo: jx-app-ingress
+  url: https://github.com/jenkins-x-apps/jx-app-ingress.git
   version: ""
   versionURL: ""

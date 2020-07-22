@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: jenkins-x-apps
+    provider: github
+    repository: jx-app-ingress
+  name: jenkins-x-apps-jx-app-ingress
+spec:
+  description: Imported application for jenkins-x-apps/jx-app-ingress
+  httpCloneURL: https://github.com/jenkins-x-apps/jx-app-ingress.git
+  org: jenkins-x-apps
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx-app-ingress
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/jenkins-x-apps/jx-app-ingress.git
